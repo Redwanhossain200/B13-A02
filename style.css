@@ -1,0 +1,138 @@
+.hero-wave-bg {
+  width: 100%;
+  background-image: url('./assets/hero-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.wave-bg {
+  background-image: url('./assets/footer-bg.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+iframe {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.podcast-circle {
+  background: linear-gradient(135deg, #FFDD55, #FF5476, #D743F0);
+  box-shadow: 0 0 40px rgba(215, 67, 240, 0.4);
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 40px rgba(215, 67, 240, 0.4);
+  }
+
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 60px rgba(215, 67, 240, 0.6);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+
+  .hero-wave-bg {
+    background-size: 150% auto;
+    background-position: center 15%;
+    top: -25px;
+  }
+
+  .wave-bg {
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-wave-bg {
+    background-size: 200% auto;
+    background-position: center 18%;
+  }
+
+  .wave-bg {
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+
+  .podcast-circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .podcast-circle img {
+    width: 100px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .hero-wave-bg {
+    background-size: 250% auto;
+    background-position: center 18%;
+  }
+
+  .wave-bg {
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-wave-bg {
+    background-size: 300% auto;
+    background-position: center 20%;
+  }
+
+  .wave-bg {
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+}
