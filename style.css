@@ -8,6 +8,16 @@
   pointer-events: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+}
+
 .wave-bg {
   background-image: url('./assets/footer-bg.png');
   background-position: center bottom;
@@ -24,7 +34,6 @@
   -webkit-text-fill-color: transparent;
   animation: shine 4s linear infinite;
 }
-
 
 img {
   display: block;
