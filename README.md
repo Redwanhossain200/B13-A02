@@ -1,6 +1,8 @@
 # 🚀 TechWave Podcast | Responsive Web Project
 This is a clean, modern web project where I focused on building a seamless user experience from scratch. My main goal here was to master responsive layouts and ensure that the interface looks sharp and professional across all devices, from mobile screens to large desktops.
 
+Live Preview : [Check it out here](https://redwanhossain200.github.io/B13-A02/)
+
 ## 🛠️ Tech Stack & Tools
 To keep the development fast and the design consistent, I used:
 * **HTML5** - For a solid semantic foundation.
